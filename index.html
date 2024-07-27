@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <title>The Weather Outside</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>The Weather Outside</title>
+        <meta http-equiv="Content-Security-Policy" content="defauly-src 'self'; script-src 'self'; style-src 'self';">
         <link rel="stylesheet" href="css/styles.css">
-        // This line is purely testing. My research into this API is incomplete at the moment.
-        <script async 
-            src="https://maps.googleapis.com/maps/api/js?key=[FUTURE_API_KEY]&libraries=places">
-        </script>
         <script 
             src="js/script.js" defer>
         </script>
@@ -16,14 +13,9 @@
     <body>
         <header>
             <h1>Weathering the Storm</h1>
-            <input type="text" id="search-city" placeholder="Find a location to examine">
-            <button id="search-button">Search</button>
         </header>
-        <section id="weather-info">
-
-        </section>
-        <section id="about">
-
-        </section>
+        <div class="dropdown">
+            <button class=""></button>
+        </div>
     </body>
 </html>
